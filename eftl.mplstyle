@@ -1,0 +1,49 @@
+# Modified by Erika Legara (21 May 2021) for purpose of illustration
+# Using AIM colors
+# Author: Cameron Davidson-Pilon, replicated styles from FiveThirtyEight.com
+# See https://www.dataorigami.net/blogs/fivethirtyeight-mpl
+
+lines.linewidth: 2
+lines.markersize : 8
+lines.solid_capstyle: butt
+
+legend.fancybox: true
+
+axes.prop_cycle: cycler('color', ['00a5d3', 'ffd400', '009a57', '6e3476',  '393357', '272040']) 
+axes.facecolor: FAFAFA
+axes.labelsize: large
+axes.axisbelow: true
+axes.grid: true
+axes.edgecolor: FAFAFA
+axes.linewidth: 1
+axes.titlesize: x-large
+
+patch.edgecolor: FAFAFA
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 1.0
+grid.color: cbcbcb
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+xtick.labelsize: 10
+ytick.labelsize: 10
+
+font.size:10
+
+savefig.edgecolor: FAFAFA
+savefig.facecolor: FAFAFA
+savefig.dpi: 150
+savefig.bbox: tight
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.facecolor: FAFAFA
+figure.figsize: 5,3.5
+figure.dpi: 150
